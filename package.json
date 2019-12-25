@@ -5,7 +5,10 @@
   "author": "Andrew Mead",
   "license": "MIT",
   "scripts": {
-    "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react"
+    "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react",
+    "live-server": "live-server public/",
+    "webpack-build": "webpack",
+    "start": "node server/server.js",
   },
   "dependencies": {
     "babel-cli": "6.24.1",
@@ -15,6 +18,7 @@
     "babel-preset-env": "1.5.2",
     "babel-preset-react": "6.24.1",
     "css-loader": "^3.3.0",
+    "express": "^4.17.1",
     "live-server": "^1.2.0",
     "normalize.css": "^8.0.1",
     "react": "15.6.1",
