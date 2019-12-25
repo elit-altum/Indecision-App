@@ -1,0 +1,29 @@
+.add-option__error {
+    color: #fff;
+    padding: 2rem;
+    padding-bottom: 0;
+    font-size: $sm-size;
+    font-family: $secondary-font;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.add-option__form {
+    display: flex;
+    padding: 2rem;
+}
+
+.add-option__input{
+    margin-top: 0;
+    flex-grow: 1;
+    padding: 1rem;
+    border: none;
+    background-color: darken($primary-color, 13%);
+    color: #fff;
+    opacity: 0.6;
+    border-bottom: 4px solid darken($primary-color, 15%);
+    border-radius: 2px;
+    font-family: $secondary-font;
+    font-size: $m-size;
+    word-break: break-all;
+}

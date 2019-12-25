@@ -1,0 +1,36 @@
+.header {
+    min-width: 100%;
+    padding: 2rem;
+    background-color: $secondary-color;
+}
+
+.header__title {
+    color: white;
+    font-size: $l-size;
+    font-family: $primary-font;
+    padding: 0;
+    margin: 0;
+}
+
+.header__subtitle {
+    color: #d0d0d0;
+    font-weight: 400;
+    font-family: $secondary-font;
+    font-size: $m-size;
+    padding: 0;
+}
+
+@media (max-width: $mobile-breakpoint) {
+
+    .header {
+        padding: 1rem;
+    }
+    
+    .header__title {
+        font-size: $res-l-size;
+    }
+
+    .header__subtitle {
+        font-size: $res-m-size;
+    }
+}

@@ -1,0 +1,34 @@
+.widget {
+    margin-top: 3rem;
+    background-color: lighten($secondary-color, 8%);
+}
+
+.widget-header {
+    width: 100%;
+    padding: 2rem;
+    color: #fff;
+    font-family: $secondary-font;
+    font-weight: bold;
+    font-size: $m-size;
+    background-color: darken($primary-color, 13%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.widget-items{
+    width: 100%;
+    color: #fff;
+    background-color: lighten($secondary-color, 8%);
+    padding: 3rem;
+    text-align: center;
+    font-family: $secondary-font;
+    font-size: $m-size;
+    border-bottom: 1px solid grey;
+}
+
+@media (max-width: $mobile-breakpoint) {
+    .widget {
+        margin-top: 1.5rem;
+    }
+}

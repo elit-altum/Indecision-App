@@ -1,0 +1,41 @@
+.big-button {
+    width: 100%;
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: $accent-color;
+    color: #fff;
+    font-family: $primary-font;
+    font-size: $l-size;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    border-bottom: 0.8rem solid darken($accent-color, 10%);
+}
+
+.button {
+    background-color: $accent-color;
+    width: 5rem;
+    height: 5rem;
+    color: #fff;
+    font-family: $secondary-font;
+    border-radius: 50%;
+    border: none;
+    margin-left: 2rem;
+    border-bottom: 0.6rem solid darken($accent-color, 10%);
+}
+
+.button-link {
+    background-color: transparent;
+    border: none;
+    color: #d0d0d0;
+    font-size: $s-size;
+    font-family: $secondary-font;
+}
+
+@media (max-width: $mobile-breakpoint) {
+    .big-button {
+        font-size: $res-l-size;
+        padding: 1rem;
+        margin-top: 1.5rem;
+    }
+}
